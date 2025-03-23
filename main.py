@@ -9,7 +9,6 @@ def get_book_text(filepath):
 def main():
     try:
         if len(sys.argv) == 2 :
-            print(sys.argv[1])
             path = sys.argv[1]
             book = get_book_text(path)
             num_of_words = get_number_words(book)
