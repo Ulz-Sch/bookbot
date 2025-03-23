@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for file in *; do
+    [[ -f "$file" ]] || continue  # Skip directories
+
+    # Check if filename already ends with .txt
+    if [[ "$file" != *.txt ]]; then
+        mv "$file" "$file.txt"
+        echo "Renamed '$file' to '$file.txt'"
+    fi
+done
+
+
