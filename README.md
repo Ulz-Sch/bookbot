@@ -4,7 +4,6 @@ BookBot is a Python-based project designed to automate and simplify book-related
 
 ## Features
 
-- Built with Python (87.7%) and Shell scripts (12.3%)
 - Modular and easily customizable
 - Automates common book processing tasks
 
